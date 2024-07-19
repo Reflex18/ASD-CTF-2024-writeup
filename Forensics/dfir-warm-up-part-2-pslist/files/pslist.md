@@ -1,24 +1,24 @@
 Offset(V)          Name                             PID    PPID   Thds   Hnds     Sess   Wow64  Start                Exit                
 ------------------ -------------------------------- ------ ------ ------ -------- ------ ------ -------------------- --------------------
-0xfffffa80007e1130 System                           4      0      41     754      ------ 0      2024-04-01 15:15:24                      
-0xfffffa800030f650 smss.exe                         461    4      16     506      ------ 0      2024-04-17 01:37:35                      
-0xfffffa80005f9f00 csrss.exe                        377    288    88     152      0      0      2024-04-04 13:10:34                      
-0xfffffa8000dabdc0 wininit.exe                      437    288    63     970      0      0      2024-04-05 04:49:09                      
-0xfffffa8000e670c0 services.exe                     389    437    64     934      0      0      2024-04-16 19:50:40                      
+0xfffffa80007e1130 System                           4      0      41     754      ------ 0      2024-04-01 15:15:24                      norm
+0xfffffa800030f650 smss.exe                         461    4      16     506      ------ 0      2024-04-17 01:37:35                      norm
+0xfffffa80005f9f00 csrss.exe                        377    288    88     152      0      0      2024-04-04 13:10:34                      norm
+0xfffffa8000dabdc0 wininit.exe                      437    288    63     970      0      0      2024-04-05 04:49:09                      norm
+0xfffffa8000e670c0 services.exe                     389    437    64     934      0      0      2024-04-16 19:50:40                      norm
 0xfffffa8000981f60 lsass.exe                        2708   1116   62     895      0      0      2024-04-14 08:31:58                      
 0xfffffa80003801a0 lsm.exe                          4824   852    20     663      0      0      2024-04-11 14:38:41                      
 0xfffffa8000d28e70 csrss.exe                        357    324    68     971      1      0      2024-04-19 15:55:39                      
 0xfffffa80003d40f0 conhost.exe                      3764   1404   35     181      1      0      2024-04-02 18:06:14                      
 0xfffffa8000370e70 winlogon.exe                     4324   324    5      521      1      0      2024-04-16 20:48:30                      
-0xfffffa800054d8b0 svchost.exe                      760    389    72     1292     0      0      2024-04-16 08:24:55                      
-0xfffffa8000910eb0 svchost.exe                      992    389    5      150      0      0      2024-04-14 08:02:25                      
-0xfffffa800017b7f0 sppsvc.exe                       3496   389    88     585      0      0      2024-04-17 20:16:35                      
-0xfffffa80005a4480 svchost.exe                      628    389    18     1344     0      0      2024-04-20 08:21:53                      
-0xfffffa8000be3700 svchost.exe                      780    3536   85     499      1      0      2024-04-02 18:57:33                      
-0xfffffa8000b76440 svchost.exe                      508    389    83     1419     0      0      2024-04-13 09:36:40                      
-0xfffffa8000a8e6c0 svchost.exe                      980    389    69     1317     0      0      2024-04-04 08:00:04                      
-0xfffffa8000199db0 svchost.exe                      804    389    14     760      0      0      2024-04-15 10:40:36                      
-0xfffffa8000ceb400 svchost.exe                      632    389    17     721      0      0      2024-04-05 02:07:26                      
+0xfffffa800054d8b0 svchost.exe                      760    389    72     1292     0      0      2024-04-16 08:24:55                      norm
+0xfffffa8000910eb0 svchost.exe                      992    389    5      150      0      0      2024-04-14 08:02:25                      norm
+0xfffffa800017b7f0 sppsvc.exe                       3496   389    88     585      0      0      2024-04-17 20:16:35                      norm
+0xfffffa80005a4480 svchost.exe                      628    389    18     1344     0      0      2024-04-20 08:21:53                      norm
+0xfffffa8000be3700 svchost.exe                      780    3536   85     499      1      0      2024-04-02 18:57:33                      sus
+0xfffffa8000b76440 svchost.exe                      508    389    83     1419     0      0      2024-04-13 09:36:40                      norm
+0xfffffa8000a8e6c0 svchost.exe                      980    389    69     1317     0      0      2024-04-04 08:00:04                      norm
+0xfffffa8000199db0 svchost.exe                      804    389    14     760      0      0      2024-04-15 10:40:36                      norm
+0xfffffa8000ceb400 svchost.exe                      632    389    17     721      0      0      2024-04-05 02:07:26                      norm
 0xfffffa80004371c0 spoolsv.exe                      6476   389    71     773      0      0      2024-04-04 21:34:34                      
 0xfffffa8000f74560 svchost.exe                      860    389    17     516      0      0      2024-04-12 00:49:28                      
 0xfffffa8000585910 wlms.exe                         9756   389    87     1408     0      0      2024-04-02 18:56:29                      
@@ -26,8 +26,7 @@ Offset(V)          Name                             PID    PPID   Thds   Hnds   
 0xfffffa800033e230 SearchIndexer.exe                7556   389    78     1217     0      0      2024-04-02 06:25:48                      
 0xfffffa800041df80 taskhost.exe                     1700   389    84     598      1      0      2024-04-03 03:52:01                      
 0xfffffa800059d7f0 dwm.exe                          5808   508    30     1263     1      0      2024-04-04 03:35:35                      
-0xfffffa8000b6d9c0 explorer.exe                     5852   4424   85     1321     1      0      2024-04-09 18:43:50                      
-0xfffffa80006647d0 regsvr32.exe                     2948   5852   53     1550     1      0      2024-04-09 19:06:01                      
+0xfffffa8000b6d9c0 explorer.exe                     5852   4424   85     1321     1      0      2024-04-09 18:43:50                                         
 0xfffffa8000508d10 svchost.exe                      596    389    52     1245     1      0      2024-04-14 17:06:52                      
 0xfffffa8000dfb510 iexplore.exe                     5400   5852   54     449      1      1      2024-04-11 04:48:28                      
 0xfffffa8000da64f0 iexplore.exe                     7412   5852   9      1472     1      1      2024-04-17 09:24:55                      
@@ -35,8 +34,8 @@ Offset(V)          Name                             PID    PPID   Thds   Hnds   
 0xfffffa80002e9900 SearchHost.exe                   2424   980    35     142      1      0      2024-04-15 00:36:45                      
 0xfffffa8000e28e50 StartMenuExperienceHost.exe      6088   804    86     46       1      0      2024-04-09 12:40:35                      
 0xfffffa8000a4dc60 Widgets.exe                      5400   596    4      1464     1      0      2024-04-02 10:00:45                      
-0xfffffa800035e5a0 RuntimeBroker.exe                6944   760    91     1433     1      0      2024-04-04 09:50:44                      
-0xfffffa8000462090 RuntimeBroker.exe                1300   632    11     1369     1      0      2024-04-05 19:18:45                      
+0xfffffa800035e5a0 RuntimeBroker.exe                6944   760    91     1433     1      0      2024-04-04 09:50:44                norm      
+0xfffffa8000462090 RuntimeBroker.exe                1300   632    11     1369     1      0      2024-04-05 19:18:45                norm      
 0xfffffa8000dec9e0 LockApp.exe                      9896   804    52     838      1      0      2024-04-18 07:02:03                      
 0xfffffa8000475b30 PhoneExperienceHost.exe          9916   632    1      48       1      0      2024-04-04 22:57:09                      
 0xfffffa8000f70c90 smartscreen.exe                  5408   489    88     613      1      0      2024-04-03 00:55:14                      
@@ -61,13 +60,11 @@ Offset(V)          Name                             PID    PPID   Thds   Hnds   
 0xfffffa8000cceb20 SearchIndexer.exe                7508   389    82     851      0      0      2024-04-19 13:38:41                      
 0xfffffa8000b22ed0 SearchProtocolHost.exe           9584   7508   24     75       0      0      2024-04-13 20:44:36                      
 0xfffffa8000bac870 SecurityHealthSystray.exe        8152   5852   55     882      1      0      2024-04-15 07:19:38                      
-0xfffffa8000377ad0 OneDrive.exe                     1088   5852   5      288      1      0      2024-04-19 00:25:23                      
-0xfffffa8000b076b0 ONENOTEM.exe                     3940   5852   59     1421     1      0      2024-04-17 18:39:12                      
+0xfffffa8000377ad0 OneDrive.exe                     1088   5852   5      288      1      0      2024-04-19 00:25:23                                        
 0xfffffa8000795130 chrome.exe                       8888   5852   20     1060     1      0      2024-04-19 20:27:30                      
 0xfffffa8000b58710 chrome.exe                       7884   9816   91     306      1      0      2024-04-18 23:36:17                      
 0xfffffa8000f920c0 chrome.exe                       6032   8872   64     591      1      0      2024-04-20 05:05:24                      
 0xfffffa8000e5c700 chrome.exe                       9816   6096   25     1079     1      0      2024-04-14 00:54:24                      
-0xfffffa8000023610 chrome.exe                       7676   6032   37     1446     1      0      2024-04-02 17:10:32  2024-04-03 05:47:03 
 0xfffffa8000a0b9f0 chrome.exe                       1068   9816   31     851      1      0      2024-04-18 01:33:01                      
 0xfffffa80008888d0 chrome.exe                       6096   6032   70     347      1      0      2024-04-16 16:59:53                      
 0xfffffa8000054710 chrome.exe                       8872   7884   16     1185     1      0      2024-04-05 16:16:18                      
