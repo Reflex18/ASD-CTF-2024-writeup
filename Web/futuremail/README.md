@@ -12,4 +12,4 @@ I did have to sign up for the webmail first before being able to send an email o
 
 flag = ASDCTF{h3ll0 71m3 7r4v3ll3r}
 
-![[Future email.png]]
+![[Future email.png]](Future%20email.png)
