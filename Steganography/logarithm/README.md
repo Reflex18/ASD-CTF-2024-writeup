@@ -12,7 +12,7 @@ Used Zsteg -A filename to find the flag.
 
 The flag was hidden in base64 code and then used cyberchef to decode it.
 
-![[Pasted%20image%2020240718123022.png]]
+![[Pasted image 20240718123022.png]]
 
 
 ASDCTF{tH@T_D0esn't_l0Ok_Lik3_png_d@Ta}
